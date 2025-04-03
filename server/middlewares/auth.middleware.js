@@ -1,0 +1,1 @@
+const AuthMiddleWare = (req, res) => {};
