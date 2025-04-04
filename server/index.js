@@ -10,17 +10,20 @@ dotenv.config();
 
 const PORT = process.env.PORT || 7000;
 
+app.use(cors());
+
 app.use(express.json());
 
 app.use("/user", userRoutes);
-app.use(
-  cors({
-    origin: "",
-    methods: ["GET", "PUT", "POST", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization", "Cache-Control"],
-    credentials: true,
-  })
-);
+
+// app.use(
+//   cors({
+//     origin: "",
+//     methods: ["GET", "PUT", "POST", "DELETE"],
+//     allowedHeaders: ["Content-Type", "Authorization", "Cache-Control"],
+//     credentials: true,
+//   })
+// );
 
 app.listen(PORT, async (req, res) => {
   try {

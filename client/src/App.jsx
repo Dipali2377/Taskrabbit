@@ -7,6 +7,8 @@ import { useLocation } from "react-router-dom";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const location = useLocation();
@@ -16,6 +18,7 @@ function App() {
         location.pathname !== "/signup" &&
         location.pathname !== "/login" && <Navbar />}
 
+      <ToastContainer position="top-right" autoClose={3000} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/loginsignup" element={<LoginSignup />} />

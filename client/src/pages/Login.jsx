@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Login/Login.css";
+import { Link } from "react-router-dom";
+import { FaRegQuestionCircle } from "react-icons/fa";
 
 const Login = () => {
   return (
@@ -27,9 +29,11 @@ const Login = () => {
             Forgot password?
           </a>
 
-          <button type="submit" className="loginn-btn">
-            Log in
-          </button>
+          <Link className="loginn-btn" to="/">
+            <button type="submit" className="loginn-btn">
+              Log in
+            </button>
+          </Link>
 
           <p className="signup-link">
             Did you purchase an assembly from IKEA or sign up via Facebook or

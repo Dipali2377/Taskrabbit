@@ -5,7 +5,7 @@ import { FaTiktok } from "react-icons/fa";
 import appStore from "../assets/Footer/appStore.svg";
 import googlePlay from "../assets/Footer/googlePlay.svg";
 import "../styles/Footer/Footer.css";
-
+import { FaRegQuestionCircle } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -61,7 +61,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <button className="help-button">❓ Help</button>
+      <button className="help-button">
+        <span style={{ padding: "2px" }}>
+          <FaRegQuestionCircle />
+        </span>
+        Help
+      </button>
     </footer>
   );
 };
