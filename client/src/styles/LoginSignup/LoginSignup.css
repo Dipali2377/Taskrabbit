@@ -1,0 +1,122 @@
+.signuplogin-container {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: rgb(191, 194, 193);
+  margin-top: 10%;
+}
+.loginsignup-body-container {
+  background-image: url("../../assets/signup-login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-option-btn {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  min-width: 64px;
+  box-shadow: none;
+  font-family: var(--next-font-inter, "Inter"), Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: normal;
+  appearance: revert;
+  height: 43px;
+  -webkit-tap-highlight-color: revert;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgb(13, 122, 95);
+  border-radius: 1000px;
+  outline: revert;
+  padding: 12px 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(13, 122, 95);
+  border-image: initial;
+  margin: 24px 0 0 0 !important;
+}
+
+.signup-option-btn button:hover {
+  background-color: #0d7a5f;
+}
+
+.login-option-btn {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  min-width: 64px;
+  box-shadow: none;
+  font-family: var(--next-font-inter, "Inter"), Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: normal;
+  appearance: revert;
+  height: 43px;
+  -webkit-tap-highlight-color: revert;
+  color: rgb(13, 122, 95);
+  margin: 0px;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgb(255, 255, 255);
+  border-radius: 1000px;
+  outline: revert;
+  padding: 12px 24px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(13, 122, 95);
+  border-image: initial;
+  margin: 15px 0 0 0 !important;
+  width: 100%;
+  max-width: 356px;
+}
+.terms-privacy {
+  color: #0d7a5f;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+}

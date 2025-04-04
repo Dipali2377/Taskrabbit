@@ -4,5 +4,5 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--next-font-inter, "Inter"), Helvetica, sans-serif;
 }

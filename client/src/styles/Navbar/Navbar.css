@@ -14,7 +14,7 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--next-font-inter, "Inter"), Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -40,5 +40,5 @@
   transition-property: background, color, border-color, box-shadow,
     -webkit-box-shadow;
   transition-timing-function: ease;
-  font-family: "Neucha", cursive;
+  font-family: var(--next-font-inter, "Inter"), Helvetica, sans-serif;
 }
